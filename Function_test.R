@@ -13,3 +13,11 @@ generateY <- function(X, beta, sigma, seed = 5832652){
   return(Y)
 }
 
+# Generate a plus function that gets x and y as parameters
+plus <- function(x, y){
+  
+   return (x + y)
+   # Return sum of x and y
+}
+
+
